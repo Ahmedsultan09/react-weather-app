@@ -1,0 +1,20 @@
+.rightContainer {
+  width: 100%;
+}
+
+.active {
+  background-color: white;
+  color: var(--dark);
+}
+
+.cards {
+  min-height: 40%;
+}
+
+.copyright {
+  height: 36px;
+}
+
+.spinner {
+  min-height: 40%;
+}

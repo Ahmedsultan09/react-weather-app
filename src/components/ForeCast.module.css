@@ -1,0 +1,11 @@
+.forecast {
+  background-color: var(--light);
+}
+
+.mood {
+  aspect-ratio: 4/2;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 2;
+}

@@ -1,0 +1,175 @@
+.container {
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.5s;
+  box-sizing: border-box;
+}
+
+.inputContainer {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  position: relative;
+}
+
+.cssInput {
+  width: 80%;
+  padding: 9px;
+  font-size: 16px;
+  border-color: #ffffff;
+  border: 1px solid #64748b;
+  background-color: var(--light);
+  color: #ffffff;
+  border-radius: 9px;
+  background-color: var(--light);
+  transition: 0.3s;
+  position: absolute;
+  right: 5%;
+}
+.cssInput:focus {
+  outline: none;
+  background-color: var(--dark);
+  border: none;
+  width: 92%;
+}
+
+.selections {
+  width: 100%;
+  height: 80%;
+  overflow-y: auto;
+}
+
+.selections::-webkit-scrollbar {
+  width: 7px;
+}
+.selections::-webkit-scrollbar-thumb {
+  background: #747f9d;
+}
+.selections::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.item {
+  width: 82%;
+  min-height: 10%;
+  border-bottom: 1px solid white;
+  text-align: center;
+  color: white;
+  transition: 0.3s;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: var(--dark);
+}
+
+.active {
+  background-color: var(--dark);
+}
+
+.arrow {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 5%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  transform: rotate(360deg);
+}
+
+.slideRight {
+  transform: translateX(-100%);
+}
+
+.btnContainer {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  color: white;
+  width: 60%;
+  height: 60%;
+  background-color: var(--dark);
+  font-size: 1.1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid transparent;
+  transition: 1s;
+}
+
+.btn:disabled {
+  opacity: 0.2;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  width: 45%;
+  height: 100%;
+  background-color: var(--light);
+  left: 27%;
+  top: 0;
+  border-radius: 50%;
+  transform: scale(25%);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.btn::before {
+  content: "Check Results";
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  left: 0%;
+  top: 27%;
+  z-index: 9999;
+}
+
+.btn:hover:after {
+  transform: scale(400%);
+  opacity: 0.8;
+  border: 1px solid white;
+}
+
+.btn:hover {
+  border: 1px solid white;
+}
+
+.choosen {
+  width: 100%;
+  height: 80%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.checkMark {
+  color: green;
+  margin: 0 0.5rem;
+}
+
+.search {
+  width: 100%;
+  height: 40%;
+}

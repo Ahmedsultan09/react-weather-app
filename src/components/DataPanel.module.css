@@ -1,0 +1,28 @@
+.leftContainer {
+  width: 100%;
+  height: 33rem;
+  transition: 0.5s;
+}
+.slideLeft {
+  transform: translateX(-100%);
+}
+
+.image {
+  position: absolute;
+  content: "";
+  background: url("../assets/weather-icons/Cloud-background.png") repeat;
+  background-size: contain;
+  width: 140%;
+  height: 100%;
+  left: -20px;
+  opacity: 0.1;
+  z-index: 1;
+}
+
+.mood {
+  aspect-ratio: 4/2;
+  max-width: 70%;
+  max-height: 70%;
+  object-fit: contain;
+  z-index: 2;
+}

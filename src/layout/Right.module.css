@@ -1,0 +1,5 @@
+.right {
+  background-color: var(--dark);
+  min-height: 33rem;
+  align-items: start;
+}
