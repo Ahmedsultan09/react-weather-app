@@ -50,7 +50,7 @@ function App() {
   }, [dispatch]);
   return (
     <div className={`${classes.app} flex justify-center items-center`}>
-      {isLoading ? <Spinner /> : <Container url={url} />}
+      {isLoading ? <Spinner /> : <Container />}
     </div>
   );
 }
