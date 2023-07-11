@@ -64,6 +64,5 @@ Welcome to the React Weather App! This web application allows users to get the c
    Open your web browser and visit `http://localhost:3000` to access the React Weather App.
 ```
 
-This markdown format provides a clear and concise explanation of the installation steps using bullet points. Make sure to replace `<API_KEY>` with your actual API key and customize any other parts of the README file as needed.
-
+This markdown format provides a clear and concise explanation of the installation steps using bullet points. Make sure to replace `<API_KEY>` with your actual API key 
 If you have any further questions or need additional assistance, please let me know!
