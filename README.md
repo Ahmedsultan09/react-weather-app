@@ -1,7 +1,6 @@
 # React Weather App
 
 ![React Weather App](./src//assets/screenshots/1.png)
-![React Weather App](./src//assets/screenshots/2.png)
 
 Welcome to the React Weather App! This web application allows users to get the current weather information for a specific location and displays it on the screen.
 
@@ -28,10 +27,43 @@ Welcome to the React Weather App! This web application allows users to get the c
 
 3. Weather Display: The app shows the current temperature, weather description, and other relevant weather details for the selected or current location.
 
+
 ## Installation
 
-1. Clone the Repository
+1. **Clone the Repository**
 
-```bash
-git clone https://github.com/Ahmedsultan09/react-weather-app.git
+   ```bash
+   git clone https://github.com/Ahmedsultan09/react-weather-app.git
+   ```
+
+2. **Install Dependencies**
+
+   ```bash
+   cd react-weather-app
+   npm install
+   ```
+
+3. **Set API Key**
+
+   - Sign up for an account at [OpenWeatherMap](https://openweathermap.org/) and get an API key.
+   - Create a new file `.env` in the project root directory.
+   - Add the following line to `.env` and replace `<API_KEY>` with your actual API key:
+
+     ```bash
+     REACT_APP_API_KEY=<API_KEY>
+     ```
+
+4. **Start the Development Server**
+
+   ```bash
+   npm start
+   ```
+
+5. **Open the App**
+
+   Open your web browser and visit `http://localhost:3000` to access the React Weather App.
 ```
+
+This markdown format provides a clear and concise explanation of the installation steps using bullet points. Make sure to replace `<API_KEY>` with your actual API key and customize any other parts of the README file as needed.
+
+If you have any further questions or need additional assistance, please let me know!
