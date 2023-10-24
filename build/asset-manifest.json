@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.64e09fc6.css",
+    "main.js": "/static/js/main.afe128de.js",
+    "static/media/hail.png": "/static/media/hail.1c04c61bc9d4c376b17d.png",
+    "static/media/snow-showers-night.png": "/static/media/snow-showers-night.63dae0b7fe3ad9be5353.png",
+    "static/media/thunder-showers-night.png": "/static/media/thunder-showers-night.b20d155caf12ea3cbe56.png",
+    "static/media/snow-showers-day.png": "/static/media/snow-showers-day.d8919877a06d752f3bb2.png",
+    "static/media/rain-snow-showers-night.png": "/static/media/rain-snow-showers-night.584f2c7a5572c66fbb23.png",
+    "static/media/thunder-showers-day.png": "/static/media/thunder-showers-day.7ee911f811cb35a2140f.png",
+    "static/media/showers-night.png": "/static/media/showers-night.2f771393849f6e65c963.png",
+    "static/media/snow.png": "/static/media/snow.ad34f6c4caf0ede3068e.png",
+    "static/media/rain-snow-showers-day.png": "/static/media/rain-snow-showers-day.4011279ce0c6c197f676.png",
+    "static/media/thunder-rain.png": "/static/media/thunder-rain.b1e7a1c5b98ad9a4a9ff.png",
+    "static/media/showers-day.png": "/static/media/showers-day.4e8a0af9a7cef24b44d4.png",
+    "static/media/rain-snow.png": "/static/media/rain-snow.0b67df5598d0a88f3ec3.png",
+    "static/media/sleet.png": "/static/media/sleet.9cae6b7f941ddb31100a.png",
+    "static/media/thunder.png": "/static/media/thunder.2b7a4b2a3435174e1746.png",
+    "static/media/rain.png": "/static/media/rain.e3c2fb9fb4314fb51920.png",
+    "static/media/partly-cloudy-night.png": "/static/media/partly-cloudy-night.2e876855dd88b2cc40d5.png",
+    "static/media/partly-cloudy-day.png": "/static/media/partly-cloudy-day.2cb787ed1f0112ecc51e.png",
+    "static/media/clear-night.png": "/static/media/clear-night.9d49d60a76397b5483e3.png",
+    "static/media/wind.png": "/static/media/wind.817d473d2e9ef5e2c229.png",
+    "static/media/fog.png": "/static/media/fog.035c494689d8eb54b592.png",
+    "static/media/cloudy.png": "/static/media/cloudy.18e30906b00f378370f7.png",
+    "static/media/clear-day.png": "/static/media/clear-day.38d4e4d90f37cb1a85ce.png",
+    "static/media/Cloud-background.png": "/static/media/Cloud-background.f88244c26c2492e3c5f1.png",
+    "index.html": "/index.html",
+    "main.64e09fc6.css.map": "/static/css/main.64e09fc6.css.map",
+    "main.afe128de.js.map": "/static/js/main.afe128de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64e09fc6.css",
+    "static/js/main.afe128de.js"
+  ]
+}
